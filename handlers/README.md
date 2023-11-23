@@ -1,11 +1,9 @@
-### Botz By [@PredatorHackerzZ](https://t.me/TheTeleRoid)
+### Botz By [@Sujan_Ch](https://t.me/Sujan_BotZ)
 
 # Bots new Version
 
-### Special Thanks @AbirHasan2005
+### Special Thanks @Sujan_Ch
 
 # Added With Batch Mode and Ban/Unban Command
 ° Features New Version Of Python And Modules
 
-## € Thanks To Me By Sponsoring My Any Github Repo 
- 
