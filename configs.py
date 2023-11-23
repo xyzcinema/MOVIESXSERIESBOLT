@@ -37,6 +37,6 @@ class Config(object):
 🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [Sujan_Ch](https://t.me/Sujan_BotZ)
 """
   HOME_TEXT = """
-Hello, [{}](tg://user?id={})\n\nThis is a Permanent FileStore Bot.
+ʜᴇʟʟᴏ, [{}](tg://user?id={})♥️\n\nᴛʜɪꜱ ɪꜱ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ.
 
 Join: @Sujan_BotZ"""
