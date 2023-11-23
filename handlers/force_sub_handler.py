@@ -1,4 +1,4 @@
-# (c) @PredatorHackerzZ
+# ©️ @Sujan_Ch || @Sujan_BotZ
 
 import asyncio
 from typing import (
