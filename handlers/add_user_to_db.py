@@ -1,4 +1,4 @@
-# (c) @PredatorHackerzZ
+©️ @Sujan_Ch || @Sujan_BotZ
 
 from configs import Config
 from handlers.database import db

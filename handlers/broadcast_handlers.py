@@ -1,4 +1,4 @@
-# (c) @PredatorHackerzZ
+©️ @Sujan_Ch || @Sujan_BotZ
 
 import time
 import string
