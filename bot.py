@@ -1,4 +1,4 @@
-# (c) @TeleRoidGroup || @PredatorHackerzZ
+©️ @Sujan_Ch || @Sujan_BotZ
 
 import os
 import asyncio
@@ -74,16 +74,12 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/GreyMatter_Bots")
+                        InlineKeyboardButton("📯 Updates Channel 📯", url="https://t.me/Sujan_BotZ")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
-                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
-                    ],
-                    [
-                        InlineKeyboardButton("Support Group", url="https://t.me/GreyMatter_Support"),
-                        InlineKeyboardButton("YouTube Channel", url="https://bit.ly/43x8Jhe")
+                        InlineKeyboardButton("🤖 About Bot 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("👨‍💻 About Dev 👨‍💻", callback_data="aboutdevs"),
+                        InlineKeyboardButton("🔐 Close 🔐", callback_data="closeMessage")
                     ]
                 ]
             )
@@ -124,7 +120,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/GreyMatter_Support)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Owner](https://t.me/Sujan_Ch)",
                                      disable_web_page_preview=True)
             return
 
@@ -304,7 +300,7 @@ async def _banned_users(_, m: Message):
 @Bot.on_message(filters.private & filters.command("clear_batch"))
 async def clear_user_batch(bot: Client, m: Message):
     MediaList[f"{str(m.from_user.id)}"] = []
-    await m.reply_text("Cleared your batch files successfully!")
+    await m.reply_text("Cleared Your Batch Files Successfully!")
 
 
 @Bot.on_callback_query()
@@ -318,12 +314,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://greylinks.in/iNTOJzfb")
-                    ],
-                    [
-                        InlineKeyboardButton("Go Home", callback_data="gotohome"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("👨‍💻 About Dev 👨‍💻", callback_data="aboutdevs"),
+                        InlineKeyboardButton("↩️ Go Home ↩️", callback_data="gotohome")
                     ]
                 ]
             )
@@ -336,12 +328,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://greylinks.in/iNTOJzfb")
-                    ],
-                    [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("Go Home", callback_data="gotohome")
+                        InlineKeyboardButton("🤖 About Bot 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("↩️ Go Home ↩️", callback_data="gotohome")
                     ]
                 ]
             )
@@ -354,16 +342,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/GreyMatter_Bots")
+                        InlineKeyboardButton("📯 Updates Channel 📯", url="https://t.me/Sujan_BotZ")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
-                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
-                    ],
-                    [
-                        InlineKeyboardButton("Support Group", url="https://t.me/GreyMatter_Support"),
-                        InlineKeyboardButton("YouTube Channel", url="https://bit.ly/43x8Jhe")
+                        InlineKeyboardButton("🤖 About Bot 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("👨‍💻 About Dev 👨‍💻", callback_data="aboutdevs"),
+                        InlineKeyboardButton("🔐 Close 🔐", callback_data="closeMessage")
                     ]
                 ]
             )
@@ -379,7 +363,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/GreyMatter_Support).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Owner](https://t.me/Sujan_Ch).",
                         disable_web_page_preview=True
                     )
                     return
@@ -401,7 +385,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/GreyMatter_Support).",
+                    text="Something went Wrong. Contact my [Owner](https://t.me/Sujan_Ch).",
                     disable_web_page_preview=True
                 )
                 return
@@ -411,12 +395,11 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/GreyMatter_Bots"),
-                        InlineKeyboardButton("Support Group", url="https://t.me/GreyMatter_Support")
+                        InlineKeyboardButton("📯 Updates Channel 📯", url="https://t.me/Sujan_BotZ"),
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("🤖 About Bot 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("👨‍💻 About Dev 👨‍💻", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -441,11 +424,11 @@ async def button(bot: Client, cmd: CallbackQuery):
             MediaList[f"{str(cmd.from_user.id)}"] = []
         file_id = cmd.message.reply_to_message.id
         MediaList[f"{str(cmd.from_user.id)}"].append(file_id)
-        await cmd.message.edit("File Saved in Batch!\n\n"
-                               "Press below button to get batch link.",
+        await cmd.message.edit("File Saved In Batch!\n\n"
+                               "Press Below Button To Get Batch Link.",
                                reply_markup=InlineKeyboardMarkup([
-                                   [InlineKeyboardButton("Get Batch Link", callback_data="getBatchLink")],
-                                   [InlineKeyboardButton("Close Message", callback_data="closeMessage")]
+                                   [InlineKeyboardButton("♻️ Get Batch Link ♻️", callback_data="getBatchLink")],
+                                   [InlineKeyboardButton("🔐 Close Message 🔐", callback_data="closeMessage")]
                                ]))
 
     elif "addToBatchFalse" in cb_data:
@@ -456,7 +439,7 @@ async def button(bot: Client, cmd: CallbackQuery):
         if message_ids is None:
             await cmd.answer("Batch List Empty!", show_alert=True)
             return
-        await cmd.message.edit("Please wait, generating batch link ...")
+        await cmd.message.edit("Please wait, Generating Batch Link ...")
         await save_batch_media_in_channel(bot=bot, editable=cmd.message, message_ids=message_ids)
         MediaList[f"{str(cmd.from_user.id)}"] = []
 
