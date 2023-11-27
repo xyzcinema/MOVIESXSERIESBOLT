@@ -74,11 +74,14 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📯 Updates Channel 📯", url="https://t.me/Sujan_BotZ")
+                        InlineKeyboardButton("📯 Updates Channel 📯", url="https://t.me/Sujan_BotZ"),
+                        InlineKeyboardButton("🍿 Movie Channel 🍿", url="https://t.me/+WVaNEJ1unlZmZDRl")
                     ],
                     [
                         InlineKeyboardButton("🤖 About Bot 🤖", callback_data="aboutbot"),
-                        InlineKeyboardButton("👨‍💻 About Dev 👨‍💻", callback_data="aboutdevs"),
+                        InlineKeyboardButton("👨‍💻 About Dev 👨‍💻", callback_data="aboutdevs")
+                    ],
+                    [
                         InlineKeyboardButton("🔐 Close 🔐", callback_data="closeMessage")
                     ]
                 ]
