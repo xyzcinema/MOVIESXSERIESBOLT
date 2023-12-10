@@ -1,6 +1,6 @@
 ![TGFileStore](https://telegra.ph/file/d651c7b7943a9702f846d.png)
 
-⍟ 𝗧𝗵𝗶𝘀 𝗶𝘀 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗣𝗮𝗿𝗺𝗮𝗻𝗲𝗻𝘁 𝗙𝗶𝗹𝗲𝘀 𝗦𝘁𝗼𝗿𝗲 𝗕𝗼𝘁 𝗯𝘆 [@𝐓𝐡𝐞𝐓𝐞𝐥𝐞𝐑𝐨𝐢𝐝](https://telegram.dog/TheTeleRoid).
+⍟ 𝗧𝗵𝗶𝘀 𝗶𝘀 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗣𝗮𝗿𝗺𝗮𝗻𝗲𝗻𝘁 𝗙𝗶𝗹𝗲𝘀 𝗦𝘁𝗼𝗿𝗲 𝗕𝗼𝘁 𝗯𝘆 [@Sujan_BotZ](https://telegram.dog/Sujan_BotZ).
 
 * **Language:** [Python3](https://www.python.org)
 * **Library:** [Pyrogram](https://docs.pyrogram.org)
@@ -12,7 +12,7 @@
 - You can also Do Force Sub to a Channel to allow access the Bot.
 
 ### Demo Bot:
-<a href="https://t.me/CF_Study_Bot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
+<a href="https://t.me/H_G_R_A_Bot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
 
 ![Configs](https://telegra.ph/file/033408792afc4d4f1f8f6.png) 🤖
 
