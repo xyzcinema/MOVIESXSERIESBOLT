@@ -17,7 +17,6 @@ async def reply_forward(message: Message, file_id: int):
             f"https://t.me/{Config.BOT_USERNAME}?start=PredatorHackerzZ_{str_to_b64(str(file_id))}",
             disable_web_page_preview=True,
             quote=True
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Bᴀᴄᴋᴜᴘ Cʜᴀɴɴᴇʟ", url=t.me/FilmyHub_Adda)]]))
         
     except FloodWait as e:
         await asyncio.sleep(e.x)
