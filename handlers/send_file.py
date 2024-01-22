@@ -13,10 +13,12 @@ from handlers.helpers import str_to_b64
 async def reply_forward(message: Message, file_id: int):
     try:
         await message.reply_text(
-            f"ꜰɪʟᴇꜱ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴀɴʏ ᴛɪᴍᴇ. ꜱᴏ ᴘʟᴇᴀꜱᴇ ꜰᴏʀᴡᴀʀᴅ ᴀɴʏ ᴡʜᴇʀᴇ ᴛᴏ ꜱᴀᴠᴇ ᴛʜᴇᴍ.",
+            f"**Fɪʟᴇ/Vɪᴅᴇᴏ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ 30 Mɪɴꜱ. Sᴏ Pʟᴇᴀꜱᴇ Fᴏʀᴡᴀʀᴅ Aɴʏ Wʜᴇʀᴇ Tᴏ Sᴀᴠᴇ Tʜᴇᴍ.\n\n👇 Hᴇʀᴇ Iꜱ Sʜᴀʀᴀʙʟᴇ Lɪɴᴋ Oꜰ Tʜɪꜱ Fɪʟᴇ/Vɪᴅᴇᴏ 👇**\n"
+            f"https://t.me/{Config.BOT_USERNAME}?start=PredatorHackerzZ_{str_to_b64(str(file_id))}",
             disable_web_page_preview=True,
             quote=True
-        )
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Bᴀᴄᴋᴜᴘ Cʜᴀɴɴᴇʟ", url=t.me/FilmyHub_Adda)]]))
+        
     except FloodWait as e:
         await asyncio.sleep(e.x)
         await reply_forward(message, file_id)
