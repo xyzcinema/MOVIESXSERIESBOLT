@@ -74,14 +74,15 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🍿 Movie Channel 🍿", url="https://t.me/+WVaNEJ1unlZmZDRl")
+                        InlineKeyboardButton("Mᴏᴠɪᴇ Gʀᴏᴜᴘ 1", url="https://t.me/+IhrdZgCypNFlYjZl"),
+                        InlineKeyboardButton("Mᴏᴠɪᴇ Gʀᴏᴜᴘ 2", url="https://t.me/+qXKjMB2U_hBkMjg1")
                     ],
                     [
-                        InlineKeyboardButton("🤖 About Bot 🤖", callback_data="aboutbot"),
-                        InlineKeyboardButton("👨‍💻 About Dev 👨‍💻", callback_data="aboutdevs")
+                        InlineKeyboardButton("🤖 Aʙᴏᴜᴛ Bᴏᴛ 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("👨‍💻 Aʙᴏᴜᴛ Aᴅᴍɪɴ  👨‍💻", callback_data="aboutdevs")
                     ],
                     [
-                        InlineKeyboardButton("🔐 Close 🔐", callback_data="closeMessage")
+                        InlineKeyboardButton("🔐 Cʟᴏꜱᴇ 🔐", callback_data="closeMessage")
                     ]
                 ]
             )
@@ -106,7 +107,7 @@ async def start(bot: Client, cmd: Message):
             for i in range(len(message_ids)):
                 await send_media_and_reply(bot, user_id=cmd.from_user.id, file_id=int(message_ids[i]))
         except Exception as err:
-            await cmd.reply_text(f"Something went wrong!\n\n**Error:** `{err}`")
+            await cmd.reply_text(f"Something Went Wrong!\n\n**error:** `{err}`")
 
 
 @Bot.on_message((filters.document | filters.video | filters.audio | filters.photo) & ~filters.chat(Config.DB_CHANNEL))
@@ -122,7 +123,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Owner](https://t.me/Sujan_Ch)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Owner](https://t.me/Sujan_Bots)",
                                      disable_web_page_preview=True)
             return
 
@@ -130,7 +131,7 @@ async def main(bot: Client, message: Message):
             return
 
         await message.reply_text(
-            text="**Choose an option from below:**",
+            text="**Choose An Option From Below:**",
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("Save in Batch", callback_data="addToBatchTrue")],
                 [InlineKeyboardButton("Get Sharable Link", callback_data="addToBatchFalse")]
@@ -316,8 +317,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👨‍💻 About Dev 👨‍💻", callback_data="aboutdevs"),
-                        InlineKeyboardButton("↩️ Go Home ↩️", callback_data="gotohome")
+                        InlineKeyboardButton("👨‍💻 Aʙᴏᴜᴛ Aᴅᴍɪɴ  👨‍💻", callback_data="aboutdevs"),
+                        InlineKeyboardButton("↩️ Gᴏ Hᴏᴍᴇ ↩️", callback_data="gotohome")
                     ]
                 ]
             )
@@ -330,8 +331,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 About Bot 🤖", callback_data="aboutbot"),
-                        InlineKeyboardButton("↩️ Go Home ↩️", callback_data="gotohome")
+                        InlineKeyboardButton("🤖 Aʙᴏᴜᴛ Bᴏᴛ 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("↩️ Gᴏ Hᴏᴍᴇ ↩️", callback_data="gotohome")
                     ]
                 ]
             )
@@ -344,14 +345,15 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🍿 Movie Channel 🍿", url="https://t.me/+WVaNEJ1unlZmZDRl")
+                        InlineKeyboardButton("Mᴏᴠɪᴇ Gʀᴏᴜᴘ 1", url="https://t.me/+IhrdZgCypNFlYjZl"),
+                        InlineKeyboardButton("Mᴏᴠɪᴇ Gʀᴏᴜᴘ 2", url="https://t.me/+qXKjMB2U_hBkMjg1")
                     ],
                     [
-                        InlineKeyboardButton("🤖 About Bot 🤖", callback_data="aboutbot"),
-                        InlineKeyboardButton("👨‍💻 About Dev 👨‍💻", callback_data="aboutdevs")
+                        InlineKeyboardButton("🤖 Aʙᴏᴜᴛ Bᴏᴛ 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("👨‍💻 Aʙᴏᴜᴛ Aᴅᴍɪɴ  👨‍💻", callback_data="aboutdevs")
                     ],
                     [
-                        InlineKeyboardButton("🔐 Close 🔐", callback_data="closeMessage")
+                        InlineKeyboardButton("🔐 Cʟᴏꜱᴇ 🔐", callback_data="closeMessage")
                     ]
                 ]
             )
@@ -399,11 +401,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🍿 Movie Channel 🍿", url="https://t.me/+WVaNEJ1unlZmZDRl")
+                        InlineKeyboardButton("Mᴏᴠɪᴇ Gʀᴏᴜᴘ 1", url="https://t.me/+IhrdZgCypNFlYjZl"),
+                        InlineKeyboardButton("Mᴏᴠɪᴇ Gʀᴏᴜᴘ 2", url="https://t.me/+qXKjMB2U_hBkMjg1")
                     ],
                     [
-                        InlineKeyboardButton("🤖 About Bot 🤖", callback_data="aboutbot"),
-                        InlineKeyboardButton("👨‍💻 About Dev 👨‍💻", callback_data="aboutdevs")
+                        InlineKeyboardButton("🤖 Aʙᴏᴜᴛ Bᴏᴛ 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("👨‍💻 Aʙᴏᴜᴛ Aᴅᴍɪɴ  👨‍💻", callback_data="aboutdevs")
                     ]
                 ]
             )
