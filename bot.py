@@ -74,8 +74,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Mᴏᴠɪᴇ Gʀᴏᴜᴘ 1", url="https://t.me/+IhrdZgCypNFlYjZl"),
-                        InlineKeyboardButton("Mᴏᴠɪᴇ Gʀᴏᴜᴘ 2", url="https://t.me/+qXKjMB2U_hBkMjg1")
+                        InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝚂𝚎𝚊𝚛𝚌𝚑 𝙱𝚘𝚝", url="https://t.me/Your_Movie_Search_Bot"),
+                        InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝙶𝚛𝚘𝚞𝚙", url="https://t.me/+IhrdZgCypNFlYjZl")
                     ],
                     [
                         InlineKeyboardButton("🤖 Aʙᴏᴜᴛ Bᴏᴛ 🤖", callback_data="aboutbot"),
