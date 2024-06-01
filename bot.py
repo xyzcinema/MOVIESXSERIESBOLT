@@ -75,14 +75,14 @@ async def start(bot: Client, cmd: Message):
                 [
                     [
                         InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝚂𝚎𝚊𝚛𝚌𝚑 𝙱𝚘𝚝", url="https://t.me/Your_Movie_Search_Bot"),
-                        InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝙶𝚛𝚘𝚞𝚙", url="https://t.me/+IhrdZgCypNFlYjZl")
+                        InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝙶𝚛𝚘𝚞𝚙", url="https://t.me/+2RcA-SpOsJExYjA1")
                     ],
                     [
-                        InlineKeyboardButton("🤖 Aʙᴏᴜᴛ Bᴏᴛ 🤖", callback_data="aboutbot"),
-                        InlineKeyboardButton("👨‍💻 Aʙᴏᴜᴛ Aᴅᴍɪɴ  👨‍💻", callback_data="aboutdevs")
+                        InlineKeyboardButton("🤖 𝙰𝚋𝚘𝚞𝚝 𝙱𝚘𝚝 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("👨‍💻 𝙱𝚘𝚝 𝙰𝚍𝚖𝚒𝚗 👨‍💻", callback_data="aboutdevs")
                     ],
                     [
-                        InlineKeyboardButton("🔐 Cʟᴏꜱᴇ 🔐", callback_data="closeMessage")
+                        InlineKeyboardButton("🔐 𝙲𝚕𝚘𝚜𝚎 🔐", callback_data="closeMessage")
                     ]
                 ]
             )
@@ -317,8 +317,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👨‍💻 Aʙᴏᴜᴛ Aᴅᴍɪɴ  👨‍💻", callback_data="aboutdevs"),
-                        InlineKeyboardButton("↩️ Gᴏ Hᴏᴍᴇ ↩️", callback_data="gotohome")
+                        InlineKeyboardButton("👨‍💻 𝙱𝚘𝚝 𝙰𝚍𝚖𝚒𝚗  👨‍💻", callback_data="aboutdevs"),
+                        InlineKeyboardButton("↩️ 𝙶𝚘 𝙷𝚘𝚖𝚎  ↩️", callback_data="gotohome")
                     ]
                 ]
             )
@@ -331,8 +331,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Aʙᴏᴜᴛ Bᴏᴛ 🤖", callback_data="aboutbot"),
-                        InlineKeyboardButton("↩️ Gᴏ Hᴏᴍᴇ ↩️", callback_data="gotohome")
+                        InlineKeyboardButton("🤖 𝙰𝚋𝚘𝚞𝚝 𝙱𝚘𝚝 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("↩️ 𝙶𝚘 𝙷𝚘𝚖𝚎 ↩️", callback_data="gotohome")
                     ]
                 ]
             )
@@ -345,15 +345,15 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Mᴏᴠɪᴇ Gʀᴏᴜᴘ 1", url="https://t.me/+IhrdZgCypNFlYjZl"),
-                        InlineKeyboardButton("Mᴏᴠɪᴇ Gʀᴏᴜᴘ 2", url="https://t.me/+qXKjMB2U_hBkMjg1")
+                        InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝚂𝚎𝚊𝚛𝚌𝚑 𝙱𝚘𝚝", url="https://t.me/Your_Movie_Search_Bot"),
+                        InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝙶𝚛𝚘𝚞𝚙", url="https://t.me/+2RcA-SpOsJExYjA1")
                     ],
                     [
-                        InlineKeyboardButton("🤖 Aʙᴏᴜᴛ Bᴏᴛ 🤖", callback_data="aboutbot"),
-                        InlineKeyboardButton("👨‍💻 Aʙᴏᴜᴛ Aᴅᴍɪɴ  👨‍💻", callback_data="aboutdevs")
+                        InlineKeyboardButton("🤖 𝙰𝚋𝚘𝚞𝚝 𝙱𝚘𝚝 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("👨‍💻 𝙱𝚘𝚝 𝙰𝚍𝚖𝚒𝚗 👨‍💻", callback_data="aboutdevs")
                     ],
                     [
-                        InlineKeyboardButton("🔐 Cʟᴏꜱᴇ 🔐", callback_data="closeMessage")
+                        InlineKeyboardButton("🔐 𝙲𝚕𝚘𝚜𝚎 🔐", callback_data="closeMessage")
                     ]
                 ]
             )
@@ -401,12 +401,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Mᴏᴠɪᴇ Gʀᴏᴜᴘ 1", url="https://t.me/+IhrdZgCypNFlYjZl"),
-                        InlineKeyboardButton("Mᴏᴠɪᴇ Gʀᴏᴜᴘ 2", url="https://t.me/+qXKjMB2U_hBkMjg1")
+                        InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝚂𝚎𝚊𝚛𝚌𝚑 𝙱𝚘𝚝", url="https://t.me/Your_Movie_Search_Bot"),
+                        InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝙶𝚛𝚘𝚞𝚙", url="https://t.me/+2RcA-SpOsJExYjA1")
                     ],
                     [
-                        InlineKeyboardButton("🤖 Aʙᴏᴜᴛ Bᴏᴛ 🤖", callback_data="aboutbot"),
-                        InlineKeyboardButton("👨‍💻 Aʙᴏᴜᴛ Aᴅᴍɪɴ  👨‍💻", callback_data="aboutdevs")
+                        InlineKeyboardButton("🤖 𝙰𝚋𝚘𝚞𝚝 𝙱𝚘𝚝 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("👨‍💻 𝙱𝚘𝚝 𝙰𝚍𝚖𝚒𝚗 👨‍💻", callback_data="aboutdevs")
                     ]
                 ]
             )
