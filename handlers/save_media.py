@@ -31,7 +31,7 @@ def get_short(url):
     
 async def forward_to_channel(bot: Client, message: Message, editable: Message):
     try:
-        __SENT = await message.forward(Config.DB_CHANNEL)
+        __SENT = await message.copy(Config.DB_CHANNEL)
         return __SENT
     except FloodWait as sl:
         if sl.value > 45:
