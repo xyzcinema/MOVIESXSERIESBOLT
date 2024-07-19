@@ -6,10 +6,14 @@ class Config(object):
   API_ID = int(os.environ.get("API_ID", "25502576"))
   API_HASH = os.environ.get("API_HASH", "f0f35dbb5b0081cdc8d3c9d5383c4628")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "6685371605:AAF_qQI9DIpg8GF7lcX6cjPElkdG0TW0L6k")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "H_G_R_A_Bot")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "H_G_R_A_Bot") # bot username without @
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001813638350"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "upshrink.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "00904499f65c1e187363a1aad5eb62b4f8fef614")
+  API = os.environ.get("API", "") # shortlink api
+  URL = os.environ.get("URL", "") # shortlink domain without https://
+  VERIFY_TUTORIAL = os.environ.get("VERIFY_TUTORIAL", "") # how to open link 
+  VERIFY = os.environ.get("VERIFY", "True") # set True Or False and make sure spelling is correct and first letter capital.
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "5123039648"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://SujanC7:SujanC7@cluster0.vst9zln.mongodb.net/?retryWrites=true&w=majority")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
