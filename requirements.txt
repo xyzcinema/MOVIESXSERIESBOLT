@@ -6,6 +6,8 @@ dnspython
 psutil
 render
 requests
+shortzy
+pytz
 
 #.......For Koyeb......#
 Flask==1.1.2
