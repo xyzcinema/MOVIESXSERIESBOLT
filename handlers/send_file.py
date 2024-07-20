@@ -13,7 +13,7 @@ from handlers.helpers import str_to_b64
 async def reply_forward(message: Message, file_id: int):
     try:
         await message.reply_text(
-            f"**Fɪʟᴇ/Vɪᴅᴇᴏ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ 30 Mɪɴꜱ. Tᴏ Sᴀᴠᴇ Tʜᴇᴍ Pʟᴇᴀꜱᴇ <a href="https://t.me/File2LinkConverter_Bot">Fᴏʀᴡᴀʀᴅ Hᴇʀᴇ</a>**",
+            f"**Fɪʟᴇ/Vɪᴅᴇᴏ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ 30 Mɪɴꜱ. Tᴏ Sᴀᴠᴇ Tʜᴇᴍ Pʟᴇᴀꜱᴇ Fᴏʀᴡᴀʀᴅ Hᴇʀᴇ @File2LinkConverter_Bot**",
             disable_web_page_preview=True,
             quote=True
         )
