@@ -3,8 +3,8 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", "27692697"))
-  API_HASH = os.environ.get("API_HASH", "fc81a21f42ccde9ba57345bfceeeec05")
+  API_ID = int(os.environ.get("API_ID", ""))
+  API_HASH = os.environ.get("API_HASH", "")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "H_G_R_A_Bot") # bot username without @
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001813638350"))
