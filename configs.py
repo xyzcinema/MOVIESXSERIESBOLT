@@ -3,8 +3,8 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", "25502576"))
-  API_HASH = os.environ.get("API_HASH", "f0f35dbb5b0081cdc8d3c9d5383c4628")
+  API_ID = int(os.environ.get("API_ID", "27692697"))
+  API_HASH = os.environ.get("API_HASH", "fc81a21f42ccde9ba57345bfceeeec05")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "7207218284:AAETy8-9NAjwuWcz0cLyhfIXKdxYmHgwzdg")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "ElinaxStoreBot") # bot username without @
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001813638350"))
