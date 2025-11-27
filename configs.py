@@ -13,7 +13,7 @@ class Config(object):
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "5123039648"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://SujanC7:SujanC7@cluster0.vst9zln.mongodb.net/?retryWrites=true&w=majority")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-  LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001978535504")
+  LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001813638350")
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
   FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
   BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
@@ -34,7 +34,7 @@ Sᴇɴᴅ Mᴇ Aɴʏ Mᴇᴅɪᴀ Oʀ Fɪʟᴇ. I Cᴀɴ Wᴏʀᴋ Iɴ Cʜᴀɴ�
 ╰──────[ 😎 ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [Sujan_Ch](https://t.me/Sujan_BotZ)
+🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [Sujan_Ch](https://t.me/Sujan_Ch)
 """
   HOME_TEXT = """
 Hᴇʟʟᴏ, [{}](tg://user?id={})♥️\n\nTʜɪꜱ Iꜱ Pʀɪᴠᴀᴛᴇ Fɪʟᴇ Sᴛᴏʀᴇ Bᴏᴛ.
