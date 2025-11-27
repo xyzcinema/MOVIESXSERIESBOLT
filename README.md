@@ -11,9 +11,6 @@
 - You can also Broadcast anythings via this Bot.
 - You can also Do Force Sub to a Channel to allow access the Bot.
 
-### Demo Bot:
-<a href="https://t.me/H_G_R_A_Bot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
-
 ![Configs](https://telegra.ph/file/033408792afc4d4f1f8f6.png) 🤖
 
 - `API_ID` - Get this from [@TeleORG_Bot](https://t.me/TeleORG_Bot)
@@ -47,12 +44,3 @@ banned_users - Get All Banned Users [Owner Only]
 
 ### 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥:
 <a href="https://t.me/Sujan_BotZ"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Channel-yellow.svg?logo=telegram"></a>
-
-
-👲 <b>DEV</b>
-
-<p align="middle">
-<img src="https://wallpapercave.com/wp/wp8674389.jpg" width="150" height="150"><br>
-<img src="https://badgen.net/badge/Name/Sujan_BotZ/FF33FF?icon=awesome&labelColor=0080FF"></a>
-<img	href="https://telegram.dog/Sujan_BotZ"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
-<a 
