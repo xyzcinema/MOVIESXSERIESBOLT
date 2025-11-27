@@ -9,7 +9,7 @@ class Config(object):
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "H_G_R_A_Bot") # bot username without @
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001813638350"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "shortxlinks.com")
-  SHORTLINK_API = os.environ.get('SHORTLINK_API', "00904499f65c1e187363a1aad5eb62b4f8fef614")
+  SHORTLINK_API = os.environ.get('SHORTLINK_API', "21312ded78e50e34e58391be04bf4a266e6b5d8f")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "5123039648"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://sujanch5:sujanch5@cluster0.jz36jmo.mongodb.net/?appName=Cluster0")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
