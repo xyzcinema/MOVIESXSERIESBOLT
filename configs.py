@@ -20,7 +20,7 @@ class Config(object):
   BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "").split()))
   OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
   ABOUT_BOT_TEXT = f"""
-Tʜɪꜱ Iꜱ Pʀɪᴠᴀᴛᴇ Fɪʟᴇ Sᴛᴏʀᴇ Bᴏᴛ.
+Tʜɪꜱ Iꜱ Fɪʟᴇ Sᴛᴏʀᴇ Bᴏᴛ.
 Sᴇɴᴅ Mᴇ Aɴʏ Mᴇᴅɪᴀ Oʀ Fɪʟᴇ. I Cᴀɴ Wᴏʀᴋ Iɴ Cʜᴀɴɴᴇʟ Tᴏᴏ. 
 
 ╭────[ 🔅FɪʟᴇSᴛᴏʀᴇBᴏᴛ🔅]────⍟
@@ -37,5 +37,6 @@ Sᴇɴᴅ Mᴇ Aɴʏ Mᴇᴅɪᴀ Oʀ Fɪʟᴇ. I Cᴀɴ Wᴏʀᴋ Iɴ Cʜᴀɴ�
 🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [Sujan_Ch](https://t.me/Sujan_Ch)
 """
   HOME_TEXT = """
-Hᴇʟʟᴏ, [{}](tg://user?id={})♥️\n\nTʜɪꜱ Iꜱ Pʀɪᴠᴀᴛᴇ Fɪʟᴇ Sᴛᴏʀᴇ Bᴏᴛ.
+Hᴇʟʟᴏ, [{}](tg://user?id={})♥️\n\nTʜɪꜱ Iꜱ Fɪʟᴇ Sᴛᴏʀᴇ Bᴏᴛ.
+
 Jᴏɪɴ: @Sujan_BotZ"""
