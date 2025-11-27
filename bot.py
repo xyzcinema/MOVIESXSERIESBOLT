@@ -73,10 +73,6 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝚂𝚎𝚊𝚛𝚌𝚑 𝙱𝚘𝚝", url="https://t.me/Your_Movie_Search_Bot"),
-                        InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝙶𝚛𝚘𝚞𝚙", url="https://t.me/+2RcA-SpOsJExYjA1")
-                    ],
-                    [
                         InlineKeyboardButton("🤖 𝙰𝚋𝚘𝚞𝚝 𝙱𝚘𝚝 🤖", callback_data="aboutbot"),
                         InlineKeyboardButton("👨‍💻 𝙱𝚘𝚝 𝙰𝚍𝚖𝚒𝚗 👨‍💻", callback_data="aboutdevs")
                     ],
@@ -213,13 +209,13 @@ async def ban(c: Client, m: Message):
         try:
             await c.send_message(
                 user_id,
-                f"You are banned to use this bot for **{ban_duration}** day(s) for the reason __{ban_reason}__ \n\n"
+                f"You are banned to use this bot for **{ban_duration}** day(s) For The Reason __{ban_reason}__ \n\n"
                 f"**Message from the admin**"
             )
-            ban_log_text += '\n\nUser notified successfully!'
+            ban_log_text += '\n\nUser Notified Successfully!'
         except:
             traceback.print_exc()
-            ban_log_text += f"\n\nUser notification failed! \n\n`{traceback.format_exc()}`"
+            ban_log_text += f"\n\nUser Notification Failed! \n\n`{traceback.format_exc()}`"
 
         await db.ban_user(user_id, ban_duration, ban_reason)
         print(ban_log_text)
@@ -344,10 +340,6 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝚂𝚎𝚊𝚛𝚌𝚑 𝙱𝚘𝚝", url="https://t.me/Your_Movie_Search_Bot"),
-                        InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝙶𝚛𝚘𝚞𝚙", url="https://t.me/+2RcA-SpOsJExYjA1")
-                    ],
-                    [
                         InlineKeyboardButton("🤖 𝙰𝚋𝚘𝚞𝚝 𝙱𝚘𝚝 🤖", callback_data="aboutbot"),
                         InlineKeyboardButton("👨‍💻 𝙱𝚘𝚝 𝙰𝚍𝚖𝚒𝚗 👨‍💻", callback_data="aboutdevs")
                     ],
@@ -399,10 +391,6 @@ async def button(bot: Client, cmd: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝚂𝚎𝚊𝚛𝚌𝚑 𝙱𝚘𝚝", url="https://t.me/Your_Movie_Search_Bot"),
-                        InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝙶𝚛𝚘𝚞𝚙", url="https://t.me/+2RcA-SpOsJExYjA1")
-                    ],
                     [
                         InlineKeyboardButton("🤖 𝙰𝚋𝚘𝚞𝚝 𝙱𝚘𝚝 🤖", callback_data="aboutbot"),
                         InlineKeyboardButton("👨‍💻 𝙱𝚘𝚝 𝙰𝚍𝚖𝚒𝚗 👨‍💻", callback_data="aboutdevs")
