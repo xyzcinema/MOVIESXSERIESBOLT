@@ -73,10 +73,10 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 𝙰𝚋𝚘𝚞𝚝 𝙱𝚘𝚝 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("🤖 𝙰𝚋𝚘𝚞𝚝 𝙱𝚘𝚝 🤖", callback_data="aboutbot")
+                    ][
                         InlineKeyboardButton("👨‍💻 𝙱𝚘𝚝 𝙰𝚍𝚖𝚒𝚗 👨‍💻", callback_data="aboutdevs")
-                    ],
-                    [
+                    ][
                         InlineKeyboardButton("🔐 𝙲𝚕𝚘𝚜𝚎 🔐", callback_data="closeMessage")
                     ]
                 ]
@@ -312,7 +312,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👨‍💻 𝙱𝚘𝚝 𝙰𝚍𝚖𝚒𝚗  👨‍💻", callback_data="aboutdevs"),
+                        InlineKeyboardButton("👨‍💻 𝙱𝚘𝚝 𝙰𝚍𝚖𝚒𝚗  👨‍💻", callback_data="aboutdevs")
+                    ][
                         InlineKeyboardButton("↩️ 𝙶𝚘 𝙷𝚘𝚖𝚎  ↩️", callback_data="gotohome")
                     ]
                 ]
@@ -326,7 +327,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 𝙰𝚋𝚘𝚞𝚝 𝙱𝚘𝚝 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("🤖 𝙰𝚋𝚘𝚞𝚝 𝙱𝚘𝚝 🤖", callback_data="aboutbot")
+                    ][
                         InlineKeyboardButton("↩️ 𝙶𝚘 𝙷𝚘𝚖𝚎 ↩️", callback_data="gotohome")
                     ]
                 ]
@@ -340,10 +342,10 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 𝙰𝚋𝚘𝚞𝚝 𝙱𝚘𝚝 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("🤖 𝙰𝚋𝚘𝚞𝚝 𝙱𝚘𝚝 🤖", callback_data="aboutbot")
+                    ][
                         InlineKeyboardButton("👨‍💻 𝙱𝚘𝚝 𝙰𝚍𝚖𝚒𝚗 👨‍💻", callback_data="aboutdevs")
-                    ],
-                    [
+                    ][
                         InlineKeyboardButton("🔐 𝙲𝚕𝚘𝚜𝚎 🔐", callback_data="closeMessage")
                     ]
                 ]
@@ -392,7 +394,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 𝙰𝚋𝚘𝚞𝚝 𝙱𝚘𝚝 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("🤖 𝙰𝚋𝚘𝚞𝚝 𝙱𝚘𝚝 🤖", callback_data="aboutbot")
+                    ][
                         InlineKeyboardButton("👨‍💻 𝙱𝚘𝚝 𝙰𝚍𝚖𝚒𝚗 👨‍💻", callback_data="aboutdevs")
                     ]
                 ]
